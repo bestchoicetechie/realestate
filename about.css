@@ -1,0 +1,138 @@
+.big-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.container {
+  width: 400px;
+  position: relative;
+  border: 2px solid gray;
+  margin: 10px;
+  border-radius: 20px;
+}
+.product1 {
+  position: relative;
+  z-index: -1;
+}
+.product1 img {
+  position: relative;
+  /* width: 100%; */
+
+  /* object-fit: cover; */
+  /* border-radius: 20px; */
+}
+.description {
+  position: absolute;
+  left: 10px;
+  top: 20px;
+}
+
+/*
+.z-index {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  margin: 40px;
+}
+.image-box {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  z-index: 5;
+}
+.gray-box {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  background: gray;
+  top: 5px;
+  left: 10px;
+  z-index: 2;
+}
+.black-box {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  background: black;
+  top: 10px;
+  left: 20px;
+  z-index: 1;
+}
+
+.animation {
+  width: 100px;
+  height: 100px;
+  background: red;
+  border-radius: 10px;
+  margin: 20px;
+
+  transition: width 2s, height 2s, background 2s, border-radius 3s;
+}
+
+.animation:hover {
+  width: 400px;
+  cursor: pointer;
+  height: 350px;
+  background: blue;
+  border-radius: 50%;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background: purple;
+  margin: 4px;
+  transition: width 2s, height 2s;
+  transition-delay: 1s;
+}
+
+div:hover {
+  width: 300px;
+  height: 300px;
+}
+
+#div1 {
+  transition-timing-function: linear;
+}
+#div2 {
+  transition-timing-function: ease;
+}
+#div3 {
+  transition-timing-function: ease-in;
+}
+#div4 {
+  transition-timing-function: ease-in;
+}
+#div5 {
+  transition-timing-function: ease-in;
+} */
+
+/* div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  margin: 20px auto;
+}
+div {
+  animation-name: changecolor;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  cursor: pointer;
+}
+@keyframes changecolor {
+  from {
+    background: red;
+    width: 100px;
+  }
+  to {
+    background: purple;
+    width: 700px;
+  }
+} */
